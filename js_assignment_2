@@ -1,0 +1,25 @@
+
+
+let companyId;
+let companyName;
+let companyAddres;
+let companyWebsite;
+
+const employeeId=1232;
+let employeeName="Siddhant Nilange";
+let employeeAge=22;
+let employeeSalary="11000";
+
+let firstName="Siddhant";
+let lastName="Nilange";
+let maritalStatus='Unmarried';
+let country="India";
+let age=22;
+
+let fatherName="Suryakant", motherName="Maya", fatherAge=55;
+
+let myAge=22;
+let yourAge=35;
+
+console.log(myAge);
+console.log(yourAge);
