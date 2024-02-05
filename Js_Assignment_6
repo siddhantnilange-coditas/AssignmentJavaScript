@@ -1,0 +1,81 @@
+
+console.log( '70'==  70);
+console.log( '70' ===  70);
+console.log(parseInt('8.8') === 9);
+
+const isNull=null;
+const isZero=0;
+const mptyString="";
+const emptyChar='';
+const unDefined=undefined;
+const notANum=NaN;
+const isFalse=false;
+
+
+const isTrue = true;
+const positiveNumber = 42;
+const nonEmptyString = "Hello, World!";
+const validObject = { key: 'value' };
+const nonEmptyArray = [1, 2, 3];
+const negativeNumber=-1;
+const zeroNumber=0;
+
+console.log(5 > 4);        // true
+console.log(4 >= 3);       // true
+console.log(4 < 3);        // false
+console.log(4 <= 3);       // false
+console.log(5 == 5);       // true
+console.log(9 === 9);      // true
+console.log(9 == '9');     // true
+console.log(8 === '8');     // false
+console.log(4 != 4);       // false
+console.log(4 !== 4);      // false
+console.log(4 != '4');     // false
+console.log(4 !== '4');    // true
+
+
+const pythonLanguage = "python";
+const jargonLanguage = "jargon";
+
+const isLengthNotEqual = pythonLanguage.length !== jargonLanguage.length;
+
+if (isLengthNotEqual) {
+  console.log("---The lengths are not equal.----");
+} else {
+  console.log("-----The lengths are equal.----");  
+}
+
+console.log(4 > 3 && 10 < 12);            // true
+console.log(4 > 3 && 10 > 12);            // false
+console.log(4 > 3 || 10 < 12);            // true
+console.log(4 > 3 || 10 > 12);            // true
+console.log(!(4 > 3));                     // false
+console.log(!(4 < 3));                     // true
+console.log(!(false));                     // true
+console.log(!(4 > 3 && 10 < 12));          // false
+console.log(!(4 > 3 && 10 > 12));          // true
+console.log(!(4 === '4'));                 // true
+
+
+const dragonLang = "dragon";
+const pythonLang = "python";
+
+const hasOnInDragon = dragonLang.includes('on');
+const hasOnInPython = pythonLang.includes('on');
+
+const finalResult = hasOnInDragon && hasOnInPython;
+
+console.log(finalResult);  //false
+
+
+
+
+
+
+
+
+
+
+
+
+
